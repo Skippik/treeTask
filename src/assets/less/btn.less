@@ -1,0 +1,33 @@
+.tree-btn {
+  border: none;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: all linear 0.2s;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+
+  &.add {
+    color: green;
+  }
+
+  &.edit {
+    color: blue;
+  }
+
+  &.delete {
+    color: red;
+  }
+
+  & svg {
+    width: 24px;
+    height: 24px;
+  }
+  &:hover {
+    background-color: antiquewhite;
+  }
+}
